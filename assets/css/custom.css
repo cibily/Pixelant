@@ -70,7 +70,24 @@ a:link {
     font-weight: normal;
 }
 
+/**
+* Credits
+*/
 
+.navbar-custom {
+    margin: 0;
+    background: transparent;
+    border:none;
+}
+
+
+.navbar-custom .caret {
+    color: #ff5500;
+}
+
+.navbar-custom .navbar-collapse {
+    padding: 0;
+}
 
 /**
 * Content box
