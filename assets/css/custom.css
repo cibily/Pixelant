@@ -21,6 +21,16 @@ Author: Silvia Trevellin
 }
 
 /**
+* General Typography
+*/
+
+
+a:link {
+    text-decoration: none;
+}  
+
+
+/**
 * Wrapper
 */
 
@@ -63,11 +73,12 @@ Author: Silvia Trevellin
 
 
 /**
-* Content box
+* Content box with red icon
 */
 
 .service {
-    margin: 60px auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .service h3 {
@@ -84,6 +95,7 @@ Author: Silvia Trevellin
     display: inline-block;
     width: 105px;
     height: 105px;
+    margin-top: 40px;
     
     background: #ff5500;
     color: #fff;
@@ -97,6 +109,10 @@ Author: Silvia Trevellin
     margin-top: 20px;
     border: 2px solid #d2d2d2;
     color: #646464;
+}
+
+.service p a {
+    color: #ff5500;
 }
 
 
