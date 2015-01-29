@@ -26,6 +26,18 @@ Author: Silvia Trevellin
 }
 
 /**
+* Wrapper
+*/
+
+#top-nav .list-inline {
+    margin: 10px auto;
+}
+#top-nav a {
+    color: #000;
+}
+
+
+/**
 * Site Logo
 */
 
