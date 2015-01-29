@@ -1,0 +1,199 @@
+/*
+Theme Name: Pixelant
+Theme repository: https://github.com/cibily/Pixelant
+Description: Bootstrap Theme
+Author: Silvia Trevellin
+*/
+/**
+
+/**
+* Icons
+*/
+
+
+@font-face {
+  font-family: 'icons';
+  src: url('../icons/fonts/icons.eot');
+  src: url('./icons/fonts/icons.eot?#iefix') format('embedded-opentype'), 
+  url('../icons/fonts/icons.woff') format('woff'), 
+  url('./icons/fonts/icons.ttf') format('truetype'), 
+  url('./icons/fonts/icons.svg#glyphicons_halflingsregular') format('svg');
+}
+
+/**
+* General Typography
+*/
+
+
+a:link {
+    text-decoration: none;
+}  
+
+
+/**
+* Wrapper
+*/
+
+.wrapper1 {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.wrapper2 {
+    background: #efefef;
+    border-top: 2px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.wrapper3 {
+    background: #dddddd;
+}
+
+/**
+* Wrapper
+*/
+
+#top-nav .list-inline {
+    margin: 10px auto;
+}
+#top-nav a {
+    color: #000;
+}
+
+
+/**
+* Site Logo
+*/
+
+.main-logo {
+    margin: 40px auto;
+    font-weight: normal;
+}
+
+/**
+* Credits
+*/
+
+.navbar-custom {
+    margin: 0;
+    background: transparent;
+    border:none;
+}
+
+
+.navbar-custom .caret {
+    color: #ff5500;
+}
+
+.navbar-custom .navbar-collapse {
+    padding: 0;
+}
+
+/**
+* Content box
+*/
+
+.service {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.service h3 {
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #4e4e4e; 
+}
+
+.service p {
+    color: #646464;
+}
+
+.service-icon {
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    margin-top: 40px;
+    
+    background: #ff5500;
+    color: #fff;
+    
+    font-family: icons;
+    font-size: 70px;
+    line-height: 105px;
+}
+
+.service-btn {
+    margin-top: 20px;
+    border: 2px solid #d2d2d2;
+    color: #646464;
+}
+
+.service p a {
+    color: #ff5500;
+}
+
+/**
+* Contact box
+*/
+
+.contact-box {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.contact-box address{
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.contact-box a {
+    color: #ff5500;
+}
+
+.contact-box abbr {
+    cursor: auto;
+}
+
+.contact-icon {
+    display: inline-block;
+    font-family: icons;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.social-box {
+    margin-top: 30px;
+}
+
+.social-box a {
+    color: #000;
+}
+
+.social-box .contact-icon {
+    display: inline-block;
+    font-family: icons;
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.form-button {
+    background: #ff5500;
+    color: #fff;
+    float: right;
+    width: 120px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+/**
+* Credits
+*/
+
+.copyright {
+    margin: 10px auto;
+}
