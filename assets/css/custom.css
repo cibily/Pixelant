@@ -7,6 +7,20 @@ Author: Silvia Trevellin
 /**
 
 /**
+* Icons
+*/
+
+
+@font-face {
+  font-family: 'icons';
+  src: url('../icons/fonts/icons.eot');
+  src: url('./icons/fonts/icons.eot?#iefix') format('embedded-opentype'), 
+  url('../icons/fonts/icons.woff') format('woff'), 
+  url('./icons/fonts/icons.ttf') format('truetype'), 
+  url('./icons/fonts/icons.svg#glyphicons_halflingsregular') format('svg');
+}
+
+/**
 * Wrapper
 */
 
@@ -42,8 +56,47 @@ Author: Silvia Trevellin
 */
 
 .main-logo {
-    margin: 30px auto;
+    margin: 40px auto;
     font-weight: normal;
+}
+
+
+
+/**
+* Content box
+*/
+
+.service {
+    margin: 60px auto;
+}
+
+.service h3 {
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #4e4e4e; 
+}
+
+.service p {
+    color: #646464;
+}
+
+.service-icon {
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    
+    background: #ff5500;
+    color: #fff;
+    
+    font-family: icons;
+    font-size: 70px;
+    line-height: 105px;
+}
+
+.service-btn {
+    margin-top: 20px;
+    border: 2px solid #d2d2d2;
+    color: #646464;
 }
 
 
