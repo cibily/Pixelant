@@ -73,7 +73,7 @@ a:link {
 
 
 /**
-* Content box with red icon
+* Content box
 */
 
 .service {
@@ -115,8 +115,50 @@ a:link {
     color: #ff5500;
 }
 
+/**
+* Contact box
+*/
 
+.contact-box {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
 
+.contact-box address{
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.contact-box a {
+    color: #ff5500;
+}
+
+.contact-box abbr {
+    cursor: auto;
+}
+
+.contact-icon {
+    display: inline-block;
+    font-family: icons;
+    font-size: 40px;
+}
+
+.social-box a {
+    color: #000;
+}
+
+.form-button {
+    background: #ff5500;
+    color: #fff;
+    float: right;
+    width: 120px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+input {
+    margin-bottom: 10px;
+}
 
 /**
 * Credits
