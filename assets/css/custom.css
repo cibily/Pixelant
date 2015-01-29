@@ -1,0 +1,26 @@
+/*
+Theme Name: Pixelant
+Theme repository: https://github.com/cibily/Pixelant
+Description: Bootstrap Theme
+Author: Silvia Trevellin
+*/
+/**
+
+/**
+* Wrapper
+*/
+
+.wrapper1 {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.wrapper2 {
+    background: #efefef;
+    border-top: 2px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.wrapper3 {
+    background: #dddddd;
+}
