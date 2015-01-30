@@ -112,7 +112,8 @@ a:link {
 */
 
 .main-logo {
-    margin: 40px auto;
+    margin: 30px auto;
+    margin-left: 20px;
     font-weight: normal;
 }
 
