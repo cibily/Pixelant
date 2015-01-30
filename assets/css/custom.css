@@ -171,20 +171,6 @@ a:link {
 }
 
 
-/*
-#main-slideshow .btn {
-    background-color: #ff5500;
-    border-color: #ff5500;
-    color: #fff;
-    width: 150px;
-    font-size: 14px;
-    margin-top: 20px;
-    
-}
-*/
-
-
-
 /**
 * Content box
 */
@@ -250,8 +236,13 @@ a:link {
     cursor: auto;
 }
 
+.contact-box p {
+    line-height: 20px;
+}
+
 .contact-icon {
     display: inline-block;
+    float: left;
     font-family: icons;
     font-size: 20px;
     margin-right: 5px;
