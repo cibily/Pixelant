@@ -263,20 +263,13 @@ a:link {
     margin-right: 5px;
 }
 
-.form-button {
-    background: #ff5500;
-    color: #fff;
-    float: right;
-    width: 120px;
-    font-size: 20px;
-    margin-top: 15px;
-    margin-bottom: 30px;
-}
-
 input {
     margin-bottom: 10px;
 }
 
+.contact-box textarea {
+    margin-bottom: 10px;
+}
 /**
 * Logo Scroll
 */
