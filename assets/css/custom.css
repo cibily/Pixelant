@@ -201,6 +201,7 @@ a:link {
 
 .service p {
     color: #646464;
+    margin: 0;
 }
 
 .service-icon {
@@ -223,7 +224,7 @@ a:link {
     color: #646464;
 }
 
-.service p a {
+.service a {
     color: #ff5500;
 }
 
