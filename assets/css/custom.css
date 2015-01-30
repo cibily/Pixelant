@@ -136,6 +136,22 @@ a:link {
     padding: 0;
 }
 
+.nav .open  a, .nav .open  a:hover, .nav .open  a:focus {
+    background: transparent;
+    
+}
+
+.navbar-default .navbar-nav  .open  a, .navbar-default .navbar-nav  .open  a:hover, .navbar-default .navbar-nav  .open  a:focus {
+    background: transparent;
+}
+
+.dropdown-menu li  a:hover {
+    background: transparent;
+    color: #ff5500;
+}
+
+
+
 
 /**
 * Slideshow
