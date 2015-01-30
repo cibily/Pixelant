@@ -60,6 +60,21 @@ a:link {
     color: #000;
 }
 
+#top-nav li {
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+
+.nav-icon {
+    display: inline-block;
+    font-family: icons;
+    font-size: 20px;
+    float:left;
+    margin-right: 5px;
+    
+}
+
 
 /**
 * Search box
@@ -92,8 +107,6 @@ a:link {
 
 
 
-
-
 /**
 * Site Logo
 */
@@ -104,7 +117,7 @@ a:link {
 }
 
 /**
-* Credits
+* Nav Menu
 */
 
 .navbar-custom {
