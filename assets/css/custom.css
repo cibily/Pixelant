@@ -269,6 +269,39 @@ a:link {
     color: #646464;
 }
 
+/**
+* Logo Scroll
+*/
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.scroll-icon-left {
+    display: inline-block;
+    font-family: icons;
+    margin-left: -150px;
+    margin-top: 20%;
+    font-size: 30px;
+    color: #dddddd;
+   
+}
+
+.scroll-icon-right {
+    display: inline-block;
+    font-family: icons;
+    margin-right: -150px;
+    margin-top: 20%;
+    font-size: 30px;
+    color: #dddddd;
+   
+}
+
+
 
 /**
 * Contact box
@@ -325,37 +358,6 @@ input {
 
 .contact-box textarea {
     margin-bottom: 10px;
-}
-/**
-* Logo Scroll
-*/
-
-.carousel-control.left {
-    background-image: none;
-}
-
-.carousel-control.right {
-    background-image: none;
-}
-
-.scroll-icon-left {
-    display: inline-block;
-    font-family: icons;
-    margin-left: -150px;
-    margin-top: 50px;
-    font-size: 30px;
-    color: #dddddd;
-   
-}
-
-.scroll-icon-right {
-    display: inline-block;
-    font-family: icons;
-    margin-right: -150px;
-    margin-top: 50px;
-    font-size: 30px;
-    color: #dddddd;
-   
 }
 
 
