@@ -1,10 +1,10 @@
 # Pixelant Layout#
 
-In this layout I put together a couple of tecnologies to show how I use TwitterBootstrap and some other developement strategies to get the project done.
+Hi, My name is Silvia and I'm a Junior Front End Developer. In this document I want to explain to you how I organise my work and what type of decisions I make during the developement process.
 
 My primary objective is to show the way I tackle the task.
 
-## Technologies Stack:
+### What tecnologies do I use?
 
 * HTML5
 * CSS3
@@ -12,11 +12,10 @@ My primary objective is to show the way I tackle the task.
 * jQuery
 * LessCSS
 * GoogleFonts
-* font icons
 * GitHub
 
 
-## Why do I use Git / GitHub?
+### How do I organise my work?
 
 I use GitHub for two reasons:
 
@@ -31,12 +30,12 @@ I've also created a custom label "wip" that I use to pinpint my current task. It
 
 I've tried to implement GitFlow to organise my job. I've produced a new feature branch for each task and I've used GitHub to create pull requests to the develop branch. 
 
-## Important elements
+### Important elements
 
 I try to describe here some technical decision that I made.
 
 
-* Top Menu Icon
+### Top Menu Icon
 
 With Bootstrap you can use the Glyphicons. For this layout I used a set on custom icon that I implemented with "Font Face" on the custom.css
 
@@ -53,10 +52,7 @@ With Bootstrap you can use the Glyphicons. For this layout I used a set on custo
 </code></pre>
 
 
-In order to have one single css file I imported on it also the style.css file.
-
-
-* Slide show: 
+### Slide show: 
 
 I created a slideshow with an over background transparent with three contents. I decide to use a bootstrap class to hide some element on small and extra small device.
 
@@ -73,7 +69,7 @@ On mediuam and large will be visible all the three elements
 ![Alt text](./img_readme/slideshow-lg.jpg "slideshow-lg")
 
 
-* Control Slideshow
+### Control Slideshow
 
 The slideshow don't show a "next" or "prev" icon in the slideshow frame.
 Thanks to the rounded points the user can know how many slides exist and what slide are active. He can also switch slide making a click on one rounded point.
@@ -83,28 +79,28 @@ Thanks to the rounded points the user can know how many slides exist and what sl
   2. Orange for the other slide that are not active now
   
   
-* Dropdown Menu
+### Dropdown Menu
 
-I choose to change the color background for the link hover. The new background and the link color were modified in the variable.less file (bootstrap folder).
+I changed the color background for the link hover. The new background and the link color were modified in the variable.less file (bootstrap folder).
 
 
 ![Alt text](./img_readme/dropdown-menu.jpg "dropdown menu")
 
 
-* Rouded images
+### Rouded images
 
-I created the rounded images with a border radius background orange.
+I created the rounded images as border radius background orange.
 After that, I positioned a font-icon in the center of the circle.
 
 
 ![Alt text](./img_readme/orange-image.jpg "orange icon")
 
-* Social Icon
+### Social Icon
 
 I decided to create it as in-line list of clickable icons.
 
 
-* Form
+### Form
 Screen readers will have problem if you create a form without label. For this reason I used for each label the .sr-only class. In this way the label will be not visible for the user but only in the code.
 
 I also change the color shadow (visible when is active) in the variables.less file.
@@ -112,7 +108,7 @@ I also change the color shadow (visible when is active) in the variables.less fi
 
 ![Alt text](./img_readme/form.jpg "form")
 
-* Google fonts
+### Google fonts
 
 Google provide a lot of different fonts for web project. I choose to use it for titles.
 
@@ -129,19 +125,19 @@ and wrote the css rule:
 </code></pre>
 
 
-* Contact 
+### Contact 
 
 For the section "CONTACT US" I used the tag address as Bootstrap suggest. 
 
 
-* Optimization
+### Optimization
 
 I decided to try the Source code and take a look about what type of optimization I can do with that.
 On the Gruntfile.js I "commented" all the file that I didn't need.
 I also changed some attributes in to the variables.less (as wrote before).
 
 
-## What I can do for emprove?
+### What I can do for emprove?
 
 I hope to have a possibility to discuss this work with a senior developer. As Junior Developer I need suggestion in order to resolve some problems and improve my tecnique.
 
@@ -149,19 +145,4 @@ A part that i'm really interest is create less file and import that in the boots
 The optimization is very important.
 
 I hope to receive some pullrequest or email in order to learn together.
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
- 
 
