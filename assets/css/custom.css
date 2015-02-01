@@ -20,10 +20,10 @@ Author: Silvia Trevellin
 @font-face {
   font-family: 'icons';
   src: url('../icons/fonts/icons.eot');
-  src: url('./icons/fonts/icons.eot?#iefix') format('embedded-opentype'), 
+  src: url('../icons/fonts/icons.eot?#iefix') format('embedded-opentype'), 
   url('../icons/fonts/icons.woff') format('woff'), 
-  url('./icons/fonts/icons.ttf') format('truetype'), 
-  url('./icons/fonts/icons.svg#glyphicons_halflingsregular') format('svg');
+  url('../icons/fonts/icons.ttf') format('truetype'), 
+  url('../icons/fonts/icons.svg#glyphicons_halflingsregular') format('svg');
 }
 
 /**
