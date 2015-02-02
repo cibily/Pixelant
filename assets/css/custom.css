@@ -1,0 +1,415 @@
+/*
+Theme Name: Pixelant
+Theme repository: https://github.com/cibily/Pixelant
+Description: Bootstrap Theme
+Author: Silvia Trevellin
+*/
+/**
+
+/**
+* Google Fonts
+*/
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+/**
+* Icons
+*/
+
+
+@font-face {
+  font-family: 'icons';
+  src: url('../icons/fonts/icons.eot');
+  src: url('../icons/fonts/icons.eot?#iefix') format('embedded-opentype'), 
+  url('../icons/fonts/icons.woff') format('woff'), 
+  url('../icons/fonts/icons.ttf') format('truetype'), 
+  url('../icons/fonts/icons.svg#glyphicons_halflingsregular') format('svg');
+}
+
+/**
+* General Typography
+*/
+
+/*
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+
+}
+*/
+
+h1, h2, h3, h4 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+a:link {
+    text-decoration: none;
+}  
+
+
+/**
+* Wrapper
+*/
+
+.wrapper1 {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.wrapper2 {
+    background: #efefef;
+    border-top: 2px solid #e4e4e4;
+    border-bottom: 1px solid #fff;
+}
+
+.wrapper3 {
+    background: #dddddd;
+}
+
+.wrapper4 {
+    border-top: 1px solid #e4e4e4;
+}
+
+/**
+* Top menu
+*/
+
+#top-nav {
+    display: inline-block;
+}
+
+#top-nav .list-inline {
+    display: inline-block;
+    margin: 10px auto;
+}
+#top-nav a {
+    color: #000;
+}
+
+#top-nav li {
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+
+.nav-icon {
+    display: inline-block;
+    font-family: icons;
+    font-size: 20px;
+    float:left;
+    margin-right: 5px;
+    
+}
+
+
+/**
+* Search box
+*/
+.search-box {
+    display: inline-block;
+    width: 200px;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    margin-right: 80px;
+    padding-right: 10px;
+    outline: 0;
+}
+
+.search-box input {
+    display: inline-block;
+    width: 160px;
+    margin-bottom: 5px;
+    border: none;
+    box-shadow: none;
+    
+}
+
+.search-icon {
+    display: inline-block;
+    font-family: icons;
+    font-size: 15px;
+}
+
+.form-control:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+
+/**
+* Site Logo
+*/
+
+.wrapper1 h1 {
+    margin: 30px auto;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+/**
+* Nav Menu
+*/
+
+.navbar-custom {
+    margin: 0;
+/*
+    background: transparent;
+    border:none;
+*/
+}
+
+
+.navbar-custom .caret {
+    color: #ff5500;
+}
+
+.navbar-custom .navbar-collapse {
+    padding: 0;
+}
+
+
+/**
+* Slideshow
+*/
+
+#main-slideshow .carousel-indicators {
+    bottom: -40px;
+}
+
+#main-slideshow .carousel-indicators li {
+    border-color: #e4e4e4;
+    background-color: #ff5500;
+}
+
+#main-slideshow .carousel-indicators li.active {
+    background-color: #e4e4e4;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 0;
+}
+
+#main-slideshow .carousel-caption {
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 50%;
+    padding: 30px;
+    background: rgba(225,225,225,.6);
+    text-align: left;
+}
+
+#main-slideshow h3 {
+    font-size: 30px;
+    text-shadow: none;
+    margin-bottom: 20px;
+}
+
+#main-slideshow p {
+    color: #363636;
+    font-size: 20px;
+    text-shadow: none;
+}
+
+
+/**
+* Content box
+*/
+
+.service-box {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.service-box h3 {
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.service-box p {
+    color: #646464;
+    margin: 0;
+}
+
+.service-icon {
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    margin-top: 40px;
+    
+    background: #ff5500;
+    color: #fff;
+    
+    font-family: icons;
+    font-size: 70px;
+    line-height: 105px;
+}
+
+.service-btn {
+    margin-top: 20px;
+    border: 2px solid #d2d2d2;
+    color: #646464;
+}
+
+/**
+* Logo Scroll
+*/
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.scroll-icon-left {
+    display: inline-block;
+    font-family: icons;
+    margin-left: -150px;
+    margin-top: 20%;
+    font-size: 30px;
+    color: #dddddd;
+   
+}
+
+.scroll-icon-right {
+    display: inline-block;
+    font-family: icons;
+    margin-right: -150px;
+    margin-top: 20%;
+    font-size: 30px;
+    color: #dddddd;
+   
+}
+
+
+
+/**
+* Contact box
+*/
+
+.contact-box {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.contact-box address{
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.contact-box a {
+    color: #ff5500;
+}
+
+.contact-box abbr {
+    cursor: auto;
+}
+
+.contact-box p {
+    line-height: 20px;
+}
+
+.contact-icon {
+    display: inline-block;
+    float: left;
+    font-family: icons;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.social-box {
+    margin-top: 30px;
+}
+
+.social-box a {
+    color: #000;
+}
+
+.social-box .contact-icon {
+    display: inline-block;
+    font-family: icons;
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.contact-box textarea {
+    margin-bottom: 10px;
+}
+
+
+/**
+* Credits
+*/
+
+.copyright {
+    margin: 10px auto;
+}
+
+
+
+/**
+* Icons style
+*/
+
+.icon-briefcase:before {
+	content: "\f0d3";
+}
+.icon-chevron-left:before {
+	content: "\f0a4";
+}
+.icon-chevron-right:before {
+	content: "\f078";
+}
+.icon-dashboard:before {
+	content: "\f07d";
+}
+.icon-database:before {
+	content: "\f096";
+}
+.icon-device-mobile:before {
+	content: "\f038";
+}
+.icon-git-branch:before {
+	content: "\f020";
+}
+.icon-home:before {
+	content: "\f08d";
+}
+.icon-mention:before {
+	content: "\f0be";
+}
+.icon-person:before {
+	content: "\f018";
+}
+.icon-search:before {
+	content: "\f02e";
+}
+.icon-triangle-down:before {
+	content: "\f05b";
+}
+.icon-social-vimeo-circular:before {
+	content: "\e600";
+}
+.icon-social-twitter-circular:before {
+	content: "\e601";
+}
+.icon-social-pinterest-circular:before {
+	content: "\e602";
+}
+.icon-social-linkedin-circular:before {
+	content: "\e603";
+}
+.icon-social-facebook-circular:before {
+	content: "\e604";
+}
